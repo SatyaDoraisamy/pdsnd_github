@@ -99,16 +99,16 @@ def time_stats(df):
 
     # display the most common month
     try:
-        pop_month = df['month'].mode()[0]
-        popular_month = months[pop_month - 1]
+        select_pop_month = df['month'].mode()[0]
+        popular_month = months[select_pop_month - 1]
         print("The most popular month is: ", popular_month.title())
     except:
         print("Not suitable for your selection.")
 
     # display the most common day of week
     try:
-        pop_day = df['day_of_week'].mode()
-        popular_day_of_week = days[pop_day]
+        select_pop_day = df['day_of_week'].mode()
+        popular_day_of_week = days[select_pop_day]
         print("The most popular day of the week is: ", popular_day_of_week.title())
     except:
         print("Not suitable for your selection.")
