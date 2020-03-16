@@ -2,7 +2,7 @@
 16 March 2020
 
 ### Project Title
-Analyse US Bikeshare Data
+Analysing US Bikeshare Data
 
 ### Description
 A Python script for analysing bikeshare data in US cities.
